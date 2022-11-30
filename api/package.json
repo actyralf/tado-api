@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "dev": "env-cmd -f ./.env nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-tado-client": "^0.10.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  }
+}
